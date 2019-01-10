@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="13.5dp"
+    android:paddingRight="13.5dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/men1" />
+
+        <TextView
+            android:fontFamily="@font/arialmt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/rect_black"
+            android:letterSpacing="0.6"
+            android:paddingBottom="7dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:paddingTop="7dp"
+            android:text="T-SHIRT"
+            android:textColor="#ffffff"
+            android:textSize="5.5sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:letterSpacing="0.0325"
+            android:lineSpacingExtra="3dp"
+            android:layout_marginBottom="45dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/sfnsdisplay"
+            android:text="Retro is back in style, flaunt the same adorning this\ngrey coloured slim-fit."
+            android:textColor="#ffffff"
+            android:textSize="13sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="18sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profileimage"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/man"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="0.5dp" />
+
+            <TextView
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/sfnsdisplay"
+                android:text="Ella Dawson"
+                android:textColor="#ffffff"
+                android:layout_gravity="center"
+                android:layout_marginLeft="15dp"
+                android:textSize="10.5sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/arialmt"
+                android:text="17:38 PM, TUESDAY"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="8sp"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
